@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468EF86A1E60513B009DBB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF8691E60513B009DBB2A /* main.m */; };
+		468EF86D1E60513B009DBB2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF86C1E60513B009DBB2A /* AppDelegate.m */; };
+		468EF8701E60513B009DBB2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF86F1E60513B009DBB2A /* ViewController.m */; };
+		468EF8731E60513B009DBB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468EF8711E60513B009DBB2A /* Main.storyboard */; };
+		468EF8751E60513B009DBB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468EF8741E60513B009DBB2A /* Assets.xcassets */; };
+		468EF8781E60513B009DBB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468EF8761E60513B009DBB2A /* LaunchScreen.storyboard */; };
+		468EF8831E60515F009DBB2A /* LHCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF8801E60515F009DBB2A /* LHCLineView.m */; };
+		468EF8841E60515F009DBB2A /* LHCPointsAndLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF8821E60515F009DBB2A /* LHCPointsAndLinesView.m */; };
+		468EF8871E605217009DBB2A /* YKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EF8861E605217009DBB2A /* YKHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		468EF8651E60513B009DBB2A /* 折线曲面统计图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "折线曲面统计图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		468EF8691E60513B009DBB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		468EF86B1E60513B009DBB2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		468EF86C1E60513B009DBB2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		468EF86E1E60513B009DBB2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		468EF86F1E60513B009DBB2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		468EF8721E60513B009DBB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		468EF8741E60513B009DBB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468EF8771E60513B009DBB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		468EF8791E60513B009DBB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468EF87F1E60515F009DBB2A /* LHCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCLineView.h; sourceTree = "<group>"; };
+		468EF8801E60515F009DBB2A /* LHCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCLineView.m; sourceTree = "<group>"; };
+		468EF8811E60515F009DBB2A /* LHCPointsAndLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCPointsAndLinesView.h; sourceTree = "<group>"; };
+		468EF8821E60515F009DBB2A /* LHCPointsAndLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCPointsAndLinesView.m; sourceTree = "<group>"; };
+		468EF8851E605217009DBB2A /* YKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHelper.h; sourceTree = "<group>"; };
+		468EF8861E605217009DBB2A /* YKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468EF8621E60513B009DBB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468EF85C1E60513B009DBB2A = {
+			isa = PBXGroup;
+			children = (
+				468EF87F1E60515F009DBB2A /* LHCLineView.h */,
+				468EF8801E60515F009DBB2A /* LHCLineView.m */,
+				468EF8811E60515F009DBB2A /* LHCPointsAndLinesView.h */,
+				468EF8821E60515F009DBB2A /* LHCPointsAndLinesView.m */,
+				468EF8851E605217009DBB2A /* YKHelper.h */,
+				468EF8861E605217009DBB2A /* YKHelper.m */,
+				468EF8671E60513B009DBB2A /* 折线曲面统计图 */,
+				468EF8661E60513B009DBB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468EF8661E60513B009DBB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468EF8651E60513B009DBB2A /* 折线曲面统计图.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468EF8671E60513B009DBB2A /* 折线曲面统计图 */ = {
+			isa = PBXGroup;
+			children = (
+				468EF86B1E60513B009DBB2A /* AppDelegate.h */,
+				468EF86C1E60513B009DBB2A /* AppDelegate.m */,
+				468EF86E1E60513B009DBB2A /* ViewController.h */,
+				468EF86F1E60513B009DBB2A /* ViewController.m */,
+				468EF8711E60513B009DBB2A /* Main.storyboard */,
+				468EF8741E60513B009DBB2A /* Assets.xcassets */,
+				468EF8761E60513B009DBB2A /* LaunchScreen.storyboard */,
+				468EF8791E60513B009DBB2A /* Info.plist */,
+				468EF8681E60513B009DBB2A /* Supporting Files */,
+			);
+			path = "折线曲面统计图";
+			sourceTree = "<group>";
+		};
+		468EF8681E60513B009DBB2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468EF8691E60513B009DBB2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468EF8641E60513B009DBB2A /* 折线曲面统计图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468EF87C1E60513B009DBB2A /* Build configuration list for PBXNativeTarget "折线曲面统计图" */;
+			buildPhases = (
+				468EF8611E60513B009DBB2A /* Sources */,
+				468EF8621E60513B009DBB2A /* Frameworks */,
+				468EF8631E60513B009DBB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "折线曲面统计图";
+			productName = "折线曲面统计图";
+			productReference = 468EF8651E60513B009DBB2A /* 折线曲面统计图.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468EF85D1E60513B009DBB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "我是五高你敢信";
+				TargetAttributes = {
+					468EF8641E60513B009DBB2A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S3MVLW789N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 468EF8601E60513B009DBB2A /* Build configuration list for PBXProject "折线曲面统计图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 468EF85C1E60513B009DBB2A;
+			productRefGroup = 468EF8661E60513B009DBB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468EF8641E60513B009DBB2A /* 折线曲面统计图 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468EF8631E60513B009DBB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468EF8781E60513B009DBB2A /* LaunchScreen.storyboard in Resources */,
+				468EF8751E60513B009DBB2A /* Assets.xcassets in Resources */,
+				468EF8731E60513B009DBB2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468EF8611E60513B009DBB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468EF8701E60513B009DBB2A /* ViewController.m in Sources */,
+				468EF86D1E60513B009DBB2A /* AppDelegate.m in Sources */,
+				468EF8831E60515F009DBB2A /* LHCLineView.m in Sources */,
+				468EF8871E605217009DBB2A /* YKHelper.m in Sources */,
+				468EF86A1E60513B009DBB2A /* main.m in Sources */,
+				468EF8841E60515F009DBB2A /* LHCPointsAndLinesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		468EF8711E60513B009DBB2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468EF8721E60513B009DBB2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		468EF8761E60513B009DBB2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468EF8771E60513B009DBB2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468EF87A1E60513B009DBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		468EF87B1E60513B009DBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468EF87D1E60513B009DBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3MVLW789N;
+				INFOPLIST_FILE = "折线曲面统计图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LHC.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		468EF87E1E60513B009DBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3MVLW789N;
+				INFOPLIST_FILE = "折线曲面统计图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LHC.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468EF8601E60513B009DBB2A /* Build configuration list for PBXProject "折线曲面统计图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468EF87A1E60513B009DBB2A /* Debug */,
+				468EF87B1E60513B009DBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468EF87C1E60513B009DBB2A /* Build configuration list for PBXNativeTarget "折线曲面统计图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468EF87D1E60513B009DBB2A /* Debug */,
+				468EF87E1E60513B009DBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468EF85D1E60513B009DBB2A /* Project object */;
+}
